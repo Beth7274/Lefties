@@ -23,6 +23,9 @@ h2 {
     background-color: rgb(190, 31, 230);
 }
 
+.carousel {
+  margin-bottom: 8px;
+}
 
 .carouselimage {
     width: 100%;
@@ -43,6 +46,9 @@ h2 {
 .img1 {
     background-image: url("yellow-steel-bathtub-1630344.jpg");
     background-position-y: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .img2 {
     background-image: url("women-s-pink-sweatshirt-and-brown-plaid-skirt-794064.jpg");
@@ -58,15 +64,11 @@ h2 {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-  }
+}
 
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-  }
+
   
 html {
     box-sizing: border-box;
@@ -143,4 +145,48 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+}
+
+.flex-items {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 100px;
+  flex-wrap: wrap;
+}
+
+.productimg {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.product {
+  width: 300px;
+  margin: 0 50px;
+  margin-bottom: 40px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.filterButton {
+  margin: 0 20px;
+  border: none;
+  background-color: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-transform: uppercase;
+  
+}
+
+.filterButton:hover {
+  text-decoration: underline;
 }
