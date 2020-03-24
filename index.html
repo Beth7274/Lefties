@@ -24,7 +24,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-default my-2 my-sm-0" type="submit"><div class="fa fa-search"></div> <!-- smaller -->
+                    <button 
+                      class="btn btn-outline-default my-2 my-sm-0" 
+                      onclick="alert('This feature is still in development')">
+                        <div class="fa fa-search"></div> <!-- smaller -->
                     </button>
                 </form>
               <ul class="navbar-nav mr-auto">
@@ -37,20 +40,23 @@
                 <li class="nav-item">
                   <a class="nav-link" href="leftiesShop.html">Shop</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Shop
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Tops</a>
+                    <a class="dropdown-item" href="#" onclick="filterProducts('Sweatshirt')">Sweatshirts</a>
                     <a class="dropdown-item" href="#">Jeans</a>
                     <a class="dropdown-item" href="#">Accessories</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">ALL</a>
                   </div>
-                </li>
+                </li> -->
               </ul>
-              <button class="btn btn-outline-default my-2 my-sm-0" type="submit">Shopping bag  <div class="fa fa-shopping-bag"></div>
+              <button 
+                class="btn btn-outline-default my-2 my-sm-0"                       
+                onclick="alert('This feature is still in development')">
+                Shopping bag  <div class="fa fa-shopping-bag"></div>
               </button>
             </div>
           </nav>
@@ -71,11 +77,13 @@
       <div class="carousel-inner">
         <div 
           class="carousel-item active imggeneral img1">
-          <button class="shopnow">SHOP NOW</button>
+          <div class="carouselBody"><a href="leftiesShop.html" class="shopnow">SHOP NOW</a></div>
         </div>
         <div class="carousel-item imggeneral img2">
+          <div class="carouselBody"><a href="leftiesShop.html" class="shopnow">SHOP NOW</a></div>
         </div>
         <div class="carousel-item imggeneral img3">
+          <div class="carouselBody"><a href="leftiesShop.html" class="shopnow">SHOP NOW</a></div>
         </div>
       </div>
 
